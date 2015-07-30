@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<facelet-taglib xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facelettaglibrary_2_0.xsd">
+
+	<namespace>http://www.hyjd.com/component/echarts</namespace>
+
+	<tag>
+		<tag-name>pieChart</tag-name>
+		<component>
+			<component-type>com.hyjd.component.echarts.pie.PieChart</component-type>
+			<renderer-type>com.hyjd.component.echarts.pie.PieChart</renderer-type>
+		</component>
+	</tag>
+
+	<tag>
+		<tag-name>barChart</tag-name>
+		<component>
+			<component-type>com.hyjd.component.echarts.bar.BarChart</component-type>
+			<renderer-type>com.hyjd.component.echarts.bar.BarChart</renderer-type>
+		</component>
+	</tag>
+
+	<tag>
+		<tag-name>radarChart</tag-name>
+		<component>
+			<component-type>com.hyjd.component.echarts.radar.RadarChart</component-type>
+			<renderer-type>com.hyjd.component.echarts.radar.RadarChart</renderer-type>
+		</component>
+	</tag>
+
+</facelet-taglib>  
